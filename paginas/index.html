@@ -8,14 +8,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
     <link rel="stylesheet" href="../estilo/index.css">
     <link rel="shortcut icon" href="../imagens/naruto-icon.png" type="image/x-icon">
     <script src="../js/login.js"></script>
     <title>Strong Eyes</title>
 
 </head>
-<body>
-    <h1>Strong Eyes</h1>
+<body style="background-color: aqua;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#" class="navbar-brand">Gerenciador de Tarefas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -45,8 +48,79 @@
             <span class="navbar-text"><a href="login.html">Logout</a></span>
         </div>
     </nav>
+    <header class="py-5">
+        <div class="container px-lg-5">
+            <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                <div class="m-4 m-lg-5">
+                    <h1 class="display-5 fw-bold">Bem-vindo!</h1>
+                    <p class="fs-4"> Descrição do meu sistema... </p>
+                    <a href="inscricao.html" class="btn btn-success btn-lg"> Registrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-   
+   <section class="pt-4">
+        <div class="container px-lg-5">
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5">
+                            <h2 class="fs-4 fw-bold">Organize suas tarefas</h2>
+                            <p class="mb-0">Use esse sistema para organizar melhor suas tarefas e bla bla bla...</p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info1">Ver mais</button>
+                            <div class="collapse" id="info1">
+                                Texto mais detalhado sobre esse ponto do sistema e bla bla bla
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5">
+                            <h2 class="fs-4 fw-bold">Acompanhe sua produtividade</h2>
+                            <p class="mb-0">Use esse sistema para acompanhar melhor sua produtividade e bla bla bla...</p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info2">Ver mais</button>
+                            <div class="collapse" id="info2">
+                                Texto mais detalhado sobre esse ponto do sistema e bla bla bla
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5">
+                            <h2 class="fs-4 fw-bold">Organize suas tarefas</h2>
+                            <p class="mb-0">Use esse sistema para organizar melhor suas tarefas e bla bla bla...</p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info1">Ver mais</button>
+                            <div class="collapse" id="info1">
+                                Texto mais detalhado sobre esse ponto do sistema e bla bla bla
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5">
+                            <h2 class="fs-4 fw-bold">Acompanhe sua produtividade</h2>
+                            <p class="mb-0">Use esse sistema para acompanhar melhor sua produtividade e bla bla bla...</p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info2">Ver mais</button>
+                            <div class="collapse" id="info2">
+                                Texto mais detalhado sobre esse ponto do sistema e bla bla bla
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
+        </div>
+   </footer>
 
 </body>
 </html>
